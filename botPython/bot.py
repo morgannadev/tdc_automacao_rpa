@@ -27,7 +27,6 @@ def main():
         
         devto_login(bot, maestro)
         find_articles(bot, maestro)
-        send_to_discord(maestro, "author", "link", "title", "link", "read")
 
     except Exception as error:
         maestro.error(
